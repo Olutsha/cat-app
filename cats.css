@@ -1,0 +1,28 @@
+body {
+    background-color: #E2CD11;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+
+}
+.cat{
+    background-color: #11E222;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius:0.5em ;
+    border: 0.5px salmon;
+    flex: 1;
+}
+@media(min-width : 960px){
+    .cat{
+        display: flex;
+        }    
+}
+fieldset{
+    margin: 1em;
+    border: 0;
+}
+button{
+    padding: 1em;
+    border: 3px solid;
+    border-radius: 0.5p;
+}
